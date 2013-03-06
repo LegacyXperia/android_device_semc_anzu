@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/semc/anzu/recovery/bootrec-device:recovery/bootrec-device
 
+# Bluetooth config
+PRODUCT_COPY_FILES += \
+    device/semc/anzu/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+
 # Device specific configs
 PRODUCT_COPY_FILES += \
     device/semc/anzu/config/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
