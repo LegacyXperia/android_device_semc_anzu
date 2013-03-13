@@ -22,4 +22,3 @@ TARGET_OTA_ASSERT_DEVICE := LT18i,LT18a,LT15i,LT15a,anzu
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/anzu/bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/semc/anzu/bluetooth/vnd_anzu.txt
