@@ -5,8 +5,6 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/anzu/overlay
 
 $(call inherit-product, device/semc/mogami-common/mogami.mk)
 
-$(call inherit-product, device/common/gps/gps_eu_supl.mk)
-
 PRODUCT_AAPT_CONFIG := normal hdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
