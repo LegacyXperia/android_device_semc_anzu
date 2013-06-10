@@ -15,6 +15,13 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/anzu/BoardConfigVendor.mk
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/anzu/bluedroid
+
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 480
+
 # Kernel
 TARGET_KERNEL_CONFIG := nAa_anzu_defconfig
 
@@ -22,9 +29,8 @@ TARGET_KERNEL_CONFIG := nAa_anzu_defconfig
 SOMC_CFG_SENSORS_ACCEL_BMA150_INPUT := yes
 SOMC_CFG_SENSORS_PROXIMITY_APDS9700 := yes
 
-TARGET_QCOM_HDMI_OUT := false
-
+# Assert
 TARGET_OTA_ASSERT_DEVICE := LT18i,LT18a,LT15i,LT15a,anzu
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/anzu/bluedroid
+# HDMI
+TARGET_QCOM_HDMI_OUT := false
