@@ -18,6 +18,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from anzu device
 $(call inherit-product, device/semc/anzu/anzu.mk)
 
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 480
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_anzu
 PRODUCT_DEVICE := anzu
