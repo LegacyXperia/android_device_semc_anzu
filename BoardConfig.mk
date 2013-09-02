@@ -32,3 +32,6 @@ TARGET_OTA_ASSERT_DEVICE := LT18i,LT18a,LT15i,LT15a,anzu
 
 # HDMI
 TARGET_QCOM_HDMI_OUT := false
+
+# CM Hardware tunables
+BOARD_HARDWARE_CLASS := device/semc/anzu/cmhw
