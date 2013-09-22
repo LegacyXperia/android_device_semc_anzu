@@ -30,22 +30,22 @@ lib/libwmsts.so
 
 # Camera proprietaries
 lib/hw/vendor-camera.semc.so
-lib/liboemcamera.so
-lib/libmmjpeg.so
-lib/libmmipl.so
-lib/libcamera_clientsemc.so
 lib/libcald_client.so
 lib/libcald_debugger.so
 lib/libcald_hal.so
 lib/libcald_imageutil.so
 lib/libcald_pal.so
 lib/libcald_server.so
-lib/libface.so
-lib/libgemini.so
+lib/libcamera_clientsemc.so
 lib/libcameraextensionclient.so
 lib/libcameraextensionjni.so
 lib/libcameraextensionservice.so
 lib/libcameralight.so
+lib/libface.so
+lib/libgemini.so
+lib/libmmipl.so
+lib/libmmjpeg.so
+lib/liboemcamera.so
 usr/semc/camera/LGI08BN0.dat
 usr/semc/camera/LGI08BN0_DW9714.dat
 usr/semc/camera/LGI08BN0_IMX105.dat
@@ -60,13 +60,23 @@ usr/semc/camera/SOD08BN1.dat
 usr/semc/camera/SOD08BN1_DW9714.dat
 usr/semc/camera/SOD08BN1_IMX105.dat
 
-# Other libraries and proprietary binaries
-bin/akmd8975
-bin/chargemon
+# Calibration
+bin/nv_param_loader
+bin/nvcustomizer
+bin/nvimport
+
+# Audio
 lib/libaudioalsa.so
+
+# Compass
+bin/akmd8975
+
+# Offline charging
+bin/chargemon
 lib/libmiscta.so
 
 # Touchscreen firmware
+bin/cy8ctma300_fwloader
 etc/firmware/touch_anzu_sharp_type1.hex
 etc/firmware/touch_anzu_sharp_type2.hex
 etc/firmware/touch_anzu_sony_type1.hex
