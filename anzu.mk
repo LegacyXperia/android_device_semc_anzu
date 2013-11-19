@@ -40,3 +40,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
     com.qc.hdmi_out=false
+    ro.zygote.disable_gl_preload=1
+    ro.bq.gpu_to_cpu_unsupported=1
+    debug.hwui.render_dirty_regions=false
