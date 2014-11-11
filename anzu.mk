@@ -19,7 +19,8 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/anzu/overlay
 
 $(call inherit-product, device/semc/mogami-common/mogami.mk)
 
-PRODUCT_AAPT_CONFIG := normal hdpi
+# Density
+PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Init files
