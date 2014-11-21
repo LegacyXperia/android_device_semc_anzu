@@ -4,12 +4,12 @@
 # defines for values are in frameworks/base/include/ui/KeycodeLabels.h
 
 # KEY_VOLUMEUP, KEY_VOLUMEDOWN
-key 115   VOLUME_UP         WAKE
-key 114   VOLUME_DOWN       WAKE
+key 115   VOLUME_UP
+key 114   VOLUME_DOWN
 
 # KEY_MENU, KEY_HOME, KEY_BACK
 key 139   MENU
-key 102   HOME              WAKE_DROPPED
+key 102   HOME
 key 158   BACK
 
 # KEY_CAMERA, KEY_CAMERA_FOCUS
