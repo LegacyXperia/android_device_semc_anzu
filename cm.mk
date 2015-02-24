@@ -29,8 +29,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_NAME := cm_anzu
 PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
 
-# Release name
-PRODUCT_RELEASE_NAME := anzu
-
 # Custom tag for unofficial builds
 TARGET_UNOFFICIAL_BUILD_ID := LegacyXperia
