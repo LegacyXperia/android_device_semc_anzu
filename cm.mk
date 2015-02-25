@@ -21,7 +21,7 @@ $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=LT18i \
-    PRODUCT_DEVICE=LT18i \
+    TARGET_DEVICE=LT18i \
     BUILD_FINGERPRINT="SEMC/LT18i_1254-2184/LT18i:4.0.4/4.1.B.0.587/tL1_3w:user/release-keys" \
     PRIVATE_BUILD_DESC="LT18i-user 4.0.4 4.1.B.0.587 tL1_3w test-keys"
 
