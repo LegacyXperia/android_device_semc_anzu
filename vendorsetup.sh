@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2013 The CyanogenMod Project
+# Copyright (C) 2015 LegacyXperia Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_anzu.mk \
-    $(LOCAL_DIR)/full_anzu.mk
+add_lunch_combo aosp_anzu-eng
+add_lunch_combo aosp_anzu-userdebug
+add_lunch_combo aosp_anzu-user
