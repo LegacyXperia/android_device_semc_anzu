@@ -25,7 +25,6 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 # Init files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc \
-    $(LOCAL_PATH)/rootdir/init.semc.usb.rc:root/init.semc.usb.rc \
     $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh
 
 # Device specific configs
@@ -37,4 +36,5 @@ PRODUCT_COPY_FILES += \
 
 # Device properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=240
+    ro.sf.lcd_density=240 \
+    ro.usb.pid_suffix=14F
