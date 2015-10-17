@@ -20,7 +20,7 @@
 <!-- These resources are around just to allow their values to be customized
           for different hardware and product builds. -->
 <resources>
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <!-- <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
 
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -34,7 +34,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">103</integer>
+   <!--  <integer name="config_deviceHardwareKeys">103</integer> -->
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -48,5 +48,5 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">103</integer>
+    <!-- <integer name="config_deviceHardwareWakeKeys">103</integer> -->
 </resources>
